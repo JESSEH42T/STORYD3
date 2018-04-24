@@ -1,0 +1,17 @@
+CREATE TABLE IF NOT EXISTS users (
+  id SERIAL PRIMARY KEY,
+  display_name text,
+  auth_id TEXT,
+  img TEXT
+);
+
+CREATE TABLE audio_files (
+audio_file_id SERIAL PRIMARY KEY,
+audio_file_url TEXT
+);
+CREATE TABLE comments (
+comment_id SERIAL PRIMARY KEY,
+user_comment VARCHAR(200),
+id INTEGER REFERENCES users,
+audio_file_id INTEGER REFERENCES audio_files
+);

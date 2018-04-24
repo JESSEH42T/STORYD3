@@ -1,0 +1,25 @@
+#storydlogo {
+  position: center;
+  background:linear-gradient(to bottom right white,#9F4CD6 );
+  width: 100%;
+  height: 100%;
+  /* transform: rotate( 15deg ); */
+}
+#backgroundimg {
+  /* background-image: url('https://picsum.photos/200/300/?random'); */
+  background-attachment: fixed;
+  background-position: right top;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.container {
+
+ 
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  color: black;
+}

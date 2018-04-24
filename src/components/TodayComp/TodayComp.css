@@ -1,0 +1,41 @@
+.todaycontainer{
+    background-color:white;
+    display:flex ;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: space-around;
+    align-content: center;
+    
+  }
+  #today-title{
+justify-content: center;
+    align-items: center;
+    font-family: 'Sintony', sans-serif;
+/* font-family: 'Open Sans', sans-serif; */
+}
+#title-text{
+	
+    font-family: 'Sintony', sans-serif, bold;
+    text-decoration: underline;
+    
+    
+    
+}
+/* #today-image{
+    width:30%;
+    height:100%;
+    padding: 10px,10px,10px,10px;
+} */
+
+#comment-container{
+    border: 25px solid  yellow; 
+    background-color:white;
+    display:flex ;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: space-around;
+    align-content: center;
+}
+
